@@ -1,15 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+
+
     <title>Document</title>
 </head>
+
 <body>
-    
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="title">Weather Dashboard</h1>
+            </div>
+        </div>
+        <div class="row upperRow">
+            <div class="col-md-4">
+                <h1 class="formHead">Weather Finder</h1>
+                <form class="formBox" action="">
+                    <input id="userInputBtn" type="text" class="userInput"
+                        placeholder="Enter City, State, or Zip Code">
+                    <input class="saveBtn" id="saveBtn8a" type="submit" value="Search">
+                </form>
+                <div id="btnContainer"></div>
+            </div>
+            <div class="col-md-8">
+                <div class="city"></div>
+                <div class="wind"></div>
+                <div class="humidity"></div>
+                <div class="temp"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
