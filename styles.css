@@ -9,13 +9,20 @@ body {
 .title {
     font-size: 2em;
     font-weight: 700;
-    padding: 25px;
+    padding: 50px;
     text-align: center;
+    color: white;
+    background-color: #6c757d;
 }
 
 .formHead {
     position: relative;
     text-align: center;
+}
+
+.historyLi {
+    background-color: #6c757d;
+    color: white;
 }
 
 .userInput {
